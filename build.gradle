@@ -40,3 +40,8 @@ publishing {
     }
 }
 version = "${jarVersion}"
+
+wrapper {
+  gradleVersion = '4.10.3'
+  distributionType = Wrapper.DistributionType.BIN
+}
